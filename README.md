@@ -324,3 +324,7 @@ pip install kagglehub librosa soundfile torch matplotlib seaborn streamlit
 - **Dataset files are intentionally ignored by Git** — only code, configs, and small result artifacts (`metrics.json`, `confusion_matrix.png`, model weights) are tracked.
 - **Label discovery order**: the loader searches protocol/metadata files first, then class-named folders, then filename tokens. If labels cannot be inferred unambiguously, training fails with a clear error instead of silently using wrong labels.
 - **Generalization**: the model is trained and validated on a single dataset (FoR-norm); cross-dataset evaluation (e.g. ASVspoof) would better assess real-world robustness to unseen TTS/voice-conversion methods.
+
+## Author 
+- **Mamun Chowdhury**
+- **23411024**
