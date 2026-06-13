@@ -296,7 +296,7 @@ Upload a `.wav`, `.mp3`, `.flac`, `.ogg`, or `.m4a` file. The app displays the p
 
 Screen Recording Demo ( 3 Minute 14 Second ) in Hosted local Server:
 
-[Demo Link]([https://google.com](https://drive.google.com/file/d/1U5v6zGtOFHeE24dZ1VIpnefqV2dhB5U2/view?usp=share_link))
+[Demo Link](https://drive.google.com/file/d/1U5v6zGtOFHeE24dZ1VIpnefqV2dhB5U2/view?usp=share_link)
 
 ## Dependencies
 
