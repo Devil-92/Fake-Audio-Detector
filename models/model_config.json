@@ -1,0 +1,16 @@
+{
+  "audio": {
+    "sample_rate": 16000,
+    "duration": 4.0,
+    "n_mels": 64,
+    "n_fft": 1024,
+    "hop_length": 256,
+    "fmin": 20,
+    "fmax": 7600
+  },
+  "class_names": [
+    "Genuine",
+    "Deepfake"
+  ],
+  "threshold": 0.5
+}

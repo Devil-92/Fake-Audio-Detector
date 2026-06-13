@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audio-detection"
+version = "0.1.0"
+description = "Low-disk KaggleHub workflow for genuine vs deepfake audio detection."
+requires-python = ">=3.10"
+dependencies = [
+  "kagglehub>=0.3.6",
+  "librosa>=0.10.2",
+  "soundfile>=0.12.1",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "torch>=2.1",
+  "matplotlib>=3.7",
+  "seaborn>=0.13",
+  "streamlit>=1.32",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
